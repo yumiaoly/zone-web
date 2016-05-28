@@ -29,6 +29,11 @@ header .container_left img{
 	width: 186px;
 	height: 40px;
 }
+header .container_center{
+	width: 450px;
+	height: 40px;
+	padding: 0 5px;
+}
 header .container_center input{
 	width:430px;
 	height: 30px;
