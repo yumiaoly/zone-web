@@ -1,0 +1,17 @@
+<h1>创建帖子</h1>
+<form action="/create" method="post">
+	<table>
+		<tr>
+			<td><label>标题：</label></td>
+			<td><input name="title" type="text"/></td>
+		</tr>
+		<tr>
+			<td><label>内容：</label></td>
+			<td>
+				<textarea name="content" style="width:300px;height:200px;"></textarea>
+			</td>
+		</tr>
+	</table>
+	<input type="submit"/>
+	<input type="hidden" value="{{csrf}}"/>
+</form>

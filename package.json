@@ -1,0 +1,33 @@
+{
+  "name": "zone-web",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^3.1.2",
+    "koa": "^1.2.0",
+    "koa-body-parser": "^1.1.2",
+    "koa-bodyparser": "^2.0.1",
+    "koa-csrf": "^2.4.0",
+    "koa-router": "^5.4.0",
+    "koa-session": "^3.3.1",
+    "koa-static": "^2.0.0",
+    "koa-static-server": "^0.1.8",
+    "koa-websocket": "^1.1.0",
+    "lodash": "^4.9.0",
+    "md5": "^2.1.0",
+    "mysql": "^2.10.2",
+    "path": "^0.12.7",
+    "sequelize": "^3.21.0",
+    "util": "^0.10.3",
+    "websocket": "^1.0.22",
+    "ws": "^1.1.0",
+    "xtemplate": "^4.5.1",
+    "xtpl": "^3.2.0"
+  }
+}
