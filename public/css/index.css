@@ -1,1 +1,38 @@
-*{}
+/*测试*/
+section, footer{
+	border: 1px solid #000;
+}
+
+*{margin:0px; padding: 0px;}
+
+/*头部页面*/
+header{
+	height: 42px;
+	padding: 12px 0;
+	background: #88c5e1;
+	border:none;
+	border-bottom:5px solid #54abd4;
+}
+header>.container{
+	width:1170px;
+	height: 42px;
+	margin:0 auto;
+	background: pink;
+}
+header .container_left{
+	width: 290px;
+	height: 40px;
+	padding: 0 15px;
+	float: left;
+}
+header .container_left img{
+	width: 186px;
+	height: 40px;
+}
+header .container_center input{
+	width:430px;
+	height: 30px;
+	padding:5px 10px;
+	border:none;
+	border-radius: 2px;
+}
