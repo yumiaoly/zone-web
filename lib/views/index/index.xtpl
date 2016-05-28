@@ -1,0 +1,10 @@
+{{extend ("../common/layout")}}
+{{#block ("head")}}
+<title>首页</title>
+<style>
+</style>
+{{/block}}
+{{#block ("body")}}
+
+
+{{/block}}
