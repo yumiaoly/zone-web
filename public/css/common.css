@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1464426491_173555.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1464426491_173555.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1464426491_173555.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1464426491_173555.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1464426491_173555.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
 *{
 	margin:0;
 	padding:0;
@@ -19,3 +27,8 @@ body{
 	padding-left:18px;
 	margin-top:40px;
 }
+
+.iconfont{
+ font-family: 'iconfont';	
+}
+

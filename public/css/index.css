@@ -3,9 +3,13 @@ section, footer{
 	border: 1px solid #000;
 }
 
-*{margin:0px; padding: 0px;}
+*{
+	margin:0px; 
+	padding: 0px;
+	list-style: none;
+}
 
-/*头部页面*/
+/********************************* 头部页面 *******************************/
 header{
 	height: 42px;
 	padding: 12px 0;
@@ -17,7 +21,7 @@ header>.container{
 	width:1170px;
 	height: 42px;
 	margin:0 auto;
-	background: pink;
+	background: #88c5e1;
 }
 header .container_left{
 	width: 290px;
@@ -33,6 +37,7 @@ header .container_center{
 	width: 450px;
 	height: 40px;
 	padding: 0 5px;
+	float: left;
 }
 header .container_center input{
 	width:430px;
@@ -40,4 +45,41 @@ header .container_center input{
 	padding:5px 10px;
 	border:none;
 	border-radius: 2px;
+}
+header .container_right{
+	width: 360px;
+	height: 42px;
+	float: right;
+	text-align: right;
+	padding: 0 15px;
+}
+header .container_right>ul{
+	float: right;
+	padding: 0 5px;
+}
+header .container_right>ul li{
+	float:left;
+}
+header .container_right>ul li a{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	width: 42px;
+	height: 42px;
+	display: inline-block;
+	text-align: center;
+	line-height: 42px;
+	margin:0 10px;
+	
+}
+header .container_right>ul .underline,header .container_right>ul .active{
+	border-bottom:2px solid #fff;
+
+}
+
+/********************************** 主体部分 ***********************************/
+.wrapper{
+	height:416px;
+	background:url('../images/banner.png') no-repeat;
 }
